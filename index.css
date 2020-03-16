@@ -18,7 +18,9 @@ h2{
 
 p{
     font-size: medium;
+    line-height: 1.2;
 }
+
 
 /* barra de navegação */
 
@@ -40,7 +42,7 @@ p{
     padding: 5px;
 }
 
-/* tabela */
+/* tabelas e listas */
 
 table{
     table-layout: fixed;
@@ -58,4 +60,14 @@ tr,td{
 .bottom_cell{
     vertical-align: bottom;
 }
+
+.ListaSemBola{
+    list-style-type: none;
+}
+
+li{
+    padding: 5px;
+}
+
+
 
