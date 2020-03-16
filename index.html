@@ -6,78 +6,99 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
   </head>
 
   <body>
-    <p class="d-flex justify-content-center">Bem-vindos à página do Github do GEOINFO!</p>
+    <ul id="navbar">
+      <li><a href="#0_intro">O que é o GEOINFO?</a></li>
+      <li><a href="#1_prod">Produções do GEOINFO</a></li>
+      <li><a href="#_legisla">Legislação</a></li>
+    </ul>
 
-    <p class="d-flex justify-content-center">O GEOINFO é uma das coordenadorias da Secretaria Municipal de Desenvolvimento Urbano da Prefeitura de São Paulo, Brasil.
-
-    <p class="d-flex justify-content-center">"GEOINFO" é apenas um apelido, pois nosso nome oficial é Coordenação de Produção e Análise da Informação.</p></p>
-
-    <div class="d-flex justify-content-center">
+    <div id="corpo">
+      <p id="0_intro">Bem-vindos à página do Github do GEOINFO!</p>
+      <p>"GEOINFO" é apenas um apelido, pois nosso nome oficial é Coordenação de Produção e Análise da Informação.</p>
+      <p>Somos uma das coordenadorias da Secretaria Municipal de Desenvolvimento Urbano da Prefeitura Municipal de São Paulo, SP, Brasil.</p>
       
-      <div class="card text-left" style="width: 20rem; margin: 10px;">
-          
-          <div class="card-body">
-            <h2 class="card-title">Infocidade</h2>
-            <p>O Infocidade apresenta dados sobre o município de São Paulo em formato de tabelas, contendo dados brutos ou dados processados.</p>
-            <a name="" id="" class="btn btn-primary" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/urbanismo/dados_estatisticos/info_cidade/index.php/" role="button" target="_blank">Abrir</a>  
-          </div>
+      <h1 id="1_prod">Produções do GEOINFO</h1>
+        <table>
+          <tr>
+            <td>
+              <h2>Infocidade</h2>
+              <p>O Infocidade apresenta dados sobre o município de São Paulo em formato de tabelas, contendo dados brutos ou dados processados.</p>
+              <a class="bottom_cell" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/urbanismo/dados_estatisticos/info_cidade/index.php/">Site do Infocidade</a>
+            </td>
+            <td>
+              <h2>Observa Sampa</h2>
+              <p>O Observa Sampa permite consultar dados sobre o município de São Paulo de maneira interativa, contendo dados brutos e dados processados, assim como indicadores 
+                elaborados dentro do próprio departamento.</p>
+              <a class="bottom_cell" href="http://observasampa.prefeitura.sp.gov.br/">Site do Observa Sampa</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h2>GeoSampa</h2>
+              <p>O GeoSampa é uma plataforma de visualização e acesso de dados georreferenciados relacionados ao município de São Paulo.</p>
+              <a class="bottom_cell" href="http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx">Site do GeoSampa</a>
+            </td>
+            <td>
+              <h2>Informes Urbanos</h2>
+              <p>Os Informes Urbanos são uma publicação que traz análises sintéticas sobre vários temas de interesse para a cidade de São Paulo. São estudos elaborados sobre dados demográficos, 
+                sociais, econômicos, de uso do solo, sempre sob a ótica da dimensão territorial.</p>
+              <a class="bottom_cell" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/urbanismo/dados_estatisticos/informes_urbanos/">Site dos Informes Urbanos</a>
+            </td>
+          </tr>
+        </table>
+      
+      <h1 id="">Repositórios no Github</h1>
+        <a href="https://github.com/geoinfo-smdu/geoinfo-smdu.github.io">Página GEOINFO</a><br><br>
 
-      </div>
+        <a href="https://github.com/geoinfo-smdu/nuvem-de-pontos-web">Nuvem de pontos web</a><br>
+        <a href="https://github.com/geoinfo-smdu/fator-de-visao-do-ceu">Fator de visão do céu</a><br>
+        <a href="https://github.com/geoinfo-smdu/geosampa-mais-livre">Plugin GeoSampa Mais Livre</a><br>
+        <a href="https://github.com/geoinfo-smdu/downloads-multiplos">Downloads múltiplos</a><br>
+        <a href="https://github.com/geoinfo-smdu/usando-Entwine">Usando Entwine</a><br>
+        <a href="https://github.com/geoinfo-smdu/OpenData-LiDAR">OpenData LiDAR</a><br>
+        <a href="https://github.com/geoinfo-smdu/processamento-LAZ">Processamento LAZ</a><br>
+        <a href="https://github.com/geoinfo-smdu/3dfier">3Dfier</a><br>
+        <a href="https://github.com/geoinfo-smdu/visualizador-lidar-web">Visualizador LiDAR web</a><br>
+        <a href="https://github.com/geoinfo-smdu/inventario-de-arquivos">Inventário de arquivos</a><br>
+        <a href="https://github.com/geoinfo-smdu/geoserver-log-analyser">Geoserver Log Analyser</a><br>
+        <a href="https://github.com/geoinfo-smdu/folderstats">Folderstats</a><br>
+        <a href="https://github.com/geoinfo-smdu/usando-MDT">Usando MDT</a><br>
+        <a href="https://github.com/geoinfo-smdu/ldap_service">LDAP Service</a><br>
+        <a href="https://github.com/geoinfo-smdu/Poligono-de-vias">Polígono de vias</a><br>
+        <a href="https://github.com/geoinfo-smdu/Prova_de_Conceito_Lidar">Prova de conceito LiDAR</a><br>
+        <a href="https://github.com/geoinfo-smdu/Analises-Diversas-na-Base-de-IPTU">Análises diversas na base de IPTU</a><br>
+        <a href="https://github.com/geoinfo-smdu/geosampa-e2e">GeoSampa e2e</a><br>
+        <a href="https://github.com/geoinfo-smdu/cota-ambiental-web">Cota ambiental web</a><br>
 
-      <div class="card text-left" style="width: 20rem; margin: 10px;">
+        <h2>GEOINFO - geral</h2>
+        <a href="https://github.com/geoinfo-smdu/apresentacoes">Apresentações HTML</a><br>
 
-          <div class="card-body">
-            <h2 class="card-title">Observa Sampa</h2>
-            <p>O Observa Sampa permite consultar dados sobre o município de São Paulo de maneira interativa, contendo dados brutos e dados processados, assim como indicadores elaborados dentro do próprio departamento.</p>
-            <a name="" id="" class="btn btn-primary" href="http://observasampa.prefeitura.sp.gov.br/" role="button" target="_blank">Abrir</a>  
-          </div>
+        <h2>Fontes</h2>
+        <a href="https://github.com/geoinfo-smdu/metadados-MDS">Metadados MDS</a><br>
+        
+        <h2>Processamento de bases de dados</h2>
+        <a href="https://github.com/geoinfo-smdu/geo-sp156">Espacialização das solicitações do SP 156</a><br>
+        <a href="https://github.com/geoinfo-smdu/georeferenciamento-do-iptu">Georeferenciamento do IPTU</a><br>
+        <a href="https://github.com/geoinfo-smdu/processamento-laz-mds">Processamento LAZ MDS</a><br>
+        <a href="https://github.com/geoinfo-smdu/Inventario-GeoSampa">Inventário GeoSampa</a><br>
 
-      </div>
+        <h2>GeoSampa</h2>
+        <a href="https://github.com/geoinfo-smdu/geo-sp156">Espacialização das solicitações do SP 156</a><br>
+        <a href="https://github.com/geoinfo-smdu/tutorial-GeoSampa">Tutorial-GeoSampa</a><br>
+        <a href="https://github.com/geoinfo-smdu/M3DC">Modelo digital 3D de São Paulo</a><br>
 
-      <div class="card text-left" style="width: 20rem; margin: 10px;">
+        <h2>Informes</h2>
+        <a href="https://github.com/geoinfo-smdu/geo-sp156">Espacialização das solicitações do SP 156</a><br>
+        <a href="https://github.com/geoinfo-smdu/georeferenciamento-do-iptu">Georeferenciamento do IPTU</a><br>
 
-        <div class="card-body">
-          <h2 class="card-title">GeoSampa</h2>
-          <p>O GeoSampa é uma plataforma de visualização e acesso de dados georreferenciados relacionados ao município de São Paulo.</p>
-          <a name="" id="" class="btn btn-primary" href="http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx" role="button" target="_blank">Abrir</a>  
-        </div>
+      <h1>Legislação relacionada ao departamento</h1>
+      
 
-      </div>
-
-      <div class="card text-left" style="width: 20rem; margin: 10px;">
-
-        <div class="card-body">
-          <h2 class="card-title">Informes Urbanos</h2>
-          <p>Os Informes Urbanos são uma publicação que traz análises sintéticas sobre vários temas de interesse para a cidade de São Paulo. São estudos elaborados sobre dados demográficos, sociais, econômicos, de uso do solo, sempre sob a ótica da dimensão territorial.</p>
-          <a name="" id="" class="btn btn-primary" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/urbanismo/dados_estatisticos/informes_urbanos/" role="button" target="_blank">Abrir</a>  
-        </div>
-
-      </div>
-
-  </div>
-    <div class="d-flex justify-content-center">
-        <div class="card text-left" style="width: 18rem; margin: 10px;">
-            <div class="card-body">
-                <h4 class="card-title">M3DC - apenas 1 SCM</h4>
-                <a name="" id="" class="btn btn-primary" href="https://testem3dc.s3-sa-east-1.amazonaws.com/converted_sample/M3DC_sample.html" role="button" target="_blank">Abrir</a>
-            </div>
-        </div>
-        <div class="card text-left" style="width: 18rem; margin: 10px;">
-                <div class="card-body">
-                    <h4 class="card-title">M3DC - 23 SCMs</h4>
-                    <a name="" id="" class="btn btn-primary" href="https://testem3dc.s3-sa-east-1.amazonaws.com/converted_files/m3dc.html" role="button" target="_blank">Abrir</a>
-                </div>
-            </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
   </body>
 </html>
