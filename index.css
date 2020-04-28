@@ -53,8 +53,9 @@ p{
 
     table, thead, tbody, th, td, tr { 
         display: block;
-        width: fit-content;
+        width: 100%;
         table-layout: auto;
+        border-collapse: collapse;
     }
 
     td { 
