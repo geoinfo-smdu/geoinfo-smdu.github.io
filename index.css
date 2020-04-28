@@ -51,9 +51,8 @@ p{
         padding: 10px;
     }
 
-    table, thead, tbody, th, td, tr { 
+    table, tr, td { 
         display: block;
-        width: 100%;
         table-layout: auto;
         border-collapse: collapse;
     }
@@ -61,10 +60,17 @@ p{
     td { 
         /* se comporta como uma linha */
         border: 1px solid gray;
+        width: 100%;
         border-radius: 5px;
-        position: relative;
-		padding-left: 50%; 
-	}
+    }
+    
+    #navbar{
+        background-color: white;
+        list-style-type: none;
+        padding: 10px;
+        color: white;
+        overflow: auto;
+    }
     
 
 }
