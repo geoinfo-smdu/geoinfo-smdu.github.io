@@ -4,15 +4,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#corpo{
-    margin-left: 20%;
-}
-
-h1{
+h2{
     font-size: xx-large;
 }
 
-h2{
+h3{
     font-size: larger;
 }
 
@@ -21,14 +17,33 @@ p{
     line-height: 1.2;
 }
 
+/** grid **/
+
+.top {grid-area: top; text-align: left;}
+.header {grid-area: header; text-align: center;}
+.menu {grid-area: menu;}
+.main {grid-area: main;}
+.right {grid-area: right;}
+.footer {grid-area: footer;}
+
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+        'top top top top top top top top top'
+        'header header header header header header header header header'
+        'menu menu menu menu main main main main right'
+        'menu menu menu menu footer footer footer footer footer';
+    padding: 10px;
+}
+
+
 
 /* barra de navegação */
 
 #navbar{
     margin: 0;
     padding: 0;
-    width: 17%;
-    height: 100%;
     background-color: white;
     list-style-type: none;
     padding: 10px;
