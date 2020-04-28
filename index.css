@@ -42,11 +42,12 @@ p{
     .grid-container{
         display: grid;
         grid-template-areas:
-        'top top top top top top top top top'
-        'header header header header header header header header header'
-        'menu menu menu menu menu menu menu menu menu'
-        'main main main main main main main main right'
-        'footer footer footer footer footer footer footer footer footer';
+        'top'
+        'header'
+        'menu'
+        'main'
+        'right'
+        'footer';
         padding: 10px;
     }
 
