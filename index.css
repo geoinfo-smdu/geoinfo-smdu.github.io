@@ -38,7 +38,7 @@ p{
 }
 
 /** celular **/
-@media only screen and (max-width: 900px) and (orientation: portrait) {
+@media only screen and (orientation: portrait) {
     .grid-container{
         display: grid;
         grid-template-areas:
