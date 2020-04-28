@@ -52,19 +52,19 @@ p{
     }
 
     table, thead, tbody, th, td, tr { 
-		display: block; 
+        display: block;
+        width: fit-content;
+        table-layout: auto;
     }
 
     td { 
         /* se comporta como uma linha */
         border: 1px solid gray;
         border-radius: 5px;
-		position: relative;
+        position: relative;
 		padding-left: 50%; 
 	}
     
-
-
 
 }
 
