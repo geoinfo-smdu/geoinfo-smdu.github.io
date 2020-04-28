@@ -59,6 +59,20 @@ p{
         overflow: auto;
     }
 
+    td,tr{display: block}
+
+    td{
+        position: relative;
+    }
+
+    td:before{
+        content: attr();
+        display: inline-block;
+        margin-left: -100%;
+        width: 100%;
+        white-space: nowrap;
+    }
+
 }
 
 /* barra de navegação */
