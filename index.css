@@ -51,8 +51,12 @@ p{
         padding: 10px;
     }
     
-    table,tr,td{
-        width: auto;
+    #navbar{
+        background-color: white;
+        list-style-type: none;
+        padding: 10px;
+        color: white;
+        overflow: auto;
     }
 
 }
