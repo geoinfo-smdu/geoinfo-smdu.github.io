@@ -62,10 +62,9 @@ p{
     border-radius: 5px;
     text-align: justify;
     margin: 10px;
-}
-
-.cardfooter{
-    vertical-align: bottom;
+    height: auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 .right{
