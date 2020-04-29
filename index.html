@@ -10,127 +10,101 @@
   </head>
 
   <body>
-    <div class="grid-container">
-
-      <div class="top">
-
-        <a href="https://www.prefeitura.sp.gov.br/">Prefeitura Municipal de São Paulo</a> >>> 
-        <a href="https://www.prefeitura.sp.gov.br/cidade/secretarias/urbanismo/">Secretaria Municipal de Desenvolvimento Urbano</a> >>> 
-        GEOINFO 
-      
-      </div>
-
+    <div class="wrapper">
       <div class="header">
-        
+
+        <p>
+          <a href="https://www.prefeitura.sp.gov.br/">Prefeitura Municipal de São Paulo</a> >>> 
+          <a href="https://www.prefeitura.sp.gov.br/cidade/secretarias/urbanismo/">Secretaria Municipal de Desenvolvimento Urbano</a> >>> 
+          GEOINFO 
+        </p>
+
         <h1>GEOINFO</h1>
-      
+
       </div>
-
-    
-
+      
       <div class="menu">
-
-        <ul id="navbar">
-          <li><a href="#0_intro">O que é o GEOINFO?</a></li>
-          <li><a href="#1_prod">Produções do GEOINFO</a></li>
-          <li><a href="#_legisla">Legislação</a></li>
-        </ul>
-
+        <p><a href="#0_intro">O que é o GEOINFO?</a></p>
+        <p><a href="#1_prod">Produções do GEOINFO</a></p>
+        <p><a href="#_legisla">Legislação</a></p>
+      
       </div>
 
       <div class="main">
-        <p id="0_intro">Bem-vindos à página do Github do GEOINFO!</p>
-        <p>"GEOINFO" é apenas um apelido, pois nosso nome oficial é Coordenação de Produção e Análise da Informação.</p>
+      
+        <p id="0_intro">Bem-vindos à página do GEOINFO no Github!</p>
+        <p>"GEOINFO" é apenas um apelido, pois nosso nome oficial é Coordenadoria de Produção e Análise da Informação.</p>
         <p>Somos uma das coordenadorias da Secretaria Municipal de Desenvolvimento Urbano da Prefeitura Municipal de São Paulo, SP, Brasil.</p>
-        
+
         <h2 id="1_prod">Produções do GEOINFO</h2>
-          
-          <table>
-            <tr>
-              <td>
+          <div class="maincards">
+            <div class="card">
+
                 <h3>Infocidade</h3>
-                <p class="semIndent">O Infocidade apresenta dados sobre o município de São Paulo em formato de tabelas, contendo dados brutos ou dados processados.</p>
-                <a class="bottom_cell" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/urbanismo/dados_estatisticos/info_cidade/index.php/">Site do Infocidade</a>
-              </td>
-              <td>
-                <h3>Observa Sampa</h3>
-                <p class="semIndent">O Observa Sampa permite consultar dados sobre o município de São Paulo de maneira interativa, contendo dados brutos e dados processados, assim como indicadores 
+                  <p>O Infocidade apresenta dados sobre o município de São Paulo em formato de <b>tabelas</b>, contendo dados brutos ou dados processados.</p>
+                  
+                  <div class="cardfooter">
+                    <a href="https://www.prefeitura.sp.gov.br/cidade/secretarias/urbanismo/dados_estatisticos/info_cidade/index.php/">Site do Infocidade</a>
+                  </div>
+
+            </div>
+
+            <div class="card">
+
+              <h3>Observa Sampa</h3>
+                <p>O Observa Sampa permite consultar dados sobre o município de São Paulo de maneira interativa, contendo dados brutos e dados processados, assim como <b>indicadores</b>
                   elaborados dentro do próprio departamento.</p>
-                <a class="bottom_cell" href="http://observasampa.prefeitura.sp.gov.br/">Site do Observa Sampa</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h3>GeoSampa</h3>
-                <p class="semIndent">O GeoSampa é uma plataforma de visualização e acesso de dados georreferenciados relacionados ao município de São Paulo.</p>
-                <a class="bottom_cell" href="http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx">Site do GeoSampa</a>
-              </td>
-              <td>
-                <h3>Informes Urbanos</h3>
-                <p class="semIndent">Os Informes Urbanos são uma publicação que traz análises sintéticas sobre vários temas de interesse para a cidade de São Paulo. São estudos elaborados sobre dados demográficos, 
+                <a href="http://observasampa.prefeitura.sp.gov.br/">Site do Observa Sampa</a>
+
+            </div>
+
+            <div class="card">
+
+              <h3>GeoSampa</h3>
+                <p>O GeoSampa é uma plataforma de visualização e acesso de dados georreferenciados relacionados ao município de São Paulo.</p>
+                <a href="http://geosampa.prefeitura.sp.gov.br/PaginasPublicas/_SBC.aspx">Site do GeoSampa</a>
+
+            </div>
+
+            <div class="card">
+
+              <h3>Informes Urbanos</h3>
+                <p>Os Informes Urbanos são uma publicação que traz análises sintéticas sobre vários temas de interesse para a cidade de São Paulo. São estudos elaborados sobre dados demográficos, 
                   sociais, econômicos, de uso do solo, sempre sob a ótica da dimensão territorial.</p>
-                <a class="bottom_cell" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/urbanismo/dados_estatisticos/informes_urbanos/">Site dos Informes Urbanos</a>
-              </td>
-            </tr>
-          </table>
-        
-        <h2 id="">Repositórios no Github</h2>
-          <ul class="ListaSemBola">
-            <li>            <a href="https://github.com/geoinfo-smdu/operacao-covid">Operação COVID-19 - visualização das operações multisecretariais da Prefeitura de São Paulo</a>          </li>
-              <ul><li><a href="https://geoinfo-smdu.github.io/operacao-covid/#12/-23.5707/-46.6987">Link para o mapa web</a></li></ul> 
-            <li>            <a href="https://github.com/geoinfo-smdu/nuvem-de-pontos-web">Nuvem de pontos web</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/fator-de-visao-do-ceu">Fator de visão do céu</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/geosampa-mais-livre">Plugin GeoSampa Mais Livre</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/downloads-multiplos">Downloads múltiplos</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/usando-Entwine">Usando Entwine</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/OpenData-LiDAR">OpenData LiDAR</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/processamento-LAZ">Processamento LAZ</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/3dfier">3Dfier</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/visualizador-lidar-web">Visualizador LiDAR web</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/inventario-de-arquivos">Inventário de arquivos</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/geoserver-log-analyser">Geoserver Log Analyser</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/folderstats">Folderstats</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/usando-MDT">Usando MDT</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/ldap_service">LDAP Service</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/Poligono-de-vias">Polígono de vias</a>            </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/Prova_de_Conceito_Lidar">Prova de conceito LiDAR</a>            </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/Analises-Diversas-na-Base-de-IPTU">Análises diversas na base de IPTU</a>            </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/geosampa-e2e">GeoSampa e2e</a>          </li>
-            <li>            <a href="https://github.com/geoinfo-smdu/cota-ambiental-web">Cota ambiental web</a>             </li>
+                <a href="https://www.prefeitura.sp.gov.br/cidade/secretarias/urbanismo/dados_estatisticos/informes_urbanos/">Site dos Informes Urbanos</a>
 
-            <h3>GEOINFO - geral</h3>
-            <li><a href="https://github.com/geoinfo-smdu/apresentacoes">Apresentações HTML</a></li>
-            <li><a href="https://github.com/geoinfo-smdu/geoinfo-smdu.github.io">Página GEOINFO</a></li>
-            
+            </div>
 
-            <h3>Fontes</h3>
-            <li><a href="https://github.com/geoinfo-smdu/metadados-MDS">Metadados MDS</a></li>
-            
-            <h3>Processamento de bases de dados</h3>
-            <li><a href="https://github.com/geoinfo-smdu/geo-sp156">Espacialização das solicitações do SP 156</a></li>
-            <li><a href="https://github.com/geoinfo-smdu/georeferenciamento-do-iptu">Georeferenciamento do IPTU</a></li>
-            <li><a href="https://github.com/geoinfo-smdu/processamento-laz-mds">Processamento LAZ MDS</a></li>
-            <li><a href="https://github.com/geoinfo-smdu/Inventario-GeoSampa">Inventário GeoSampa</a></li>
+          </div>
 
-            <h3>GeoSampa</h3>
-            <li><a href="https://github.com/geoinfo-smdu/geo-sp156">Espacialização das solicitações do SP 156</a></li>
-            
-            <li><a href="https://github.com/geoinfo-smdu/tutorial-GeoSampa">Tutorial GeoSampa</a>
-              <ul><li><a href="https://geoinfo-smdu.github.io/tutorial-GeoSampa/tutorial.html">Link para o tutorial</a></li></ul>
-            </li>
-            
-            <li><a href="https://github.com/geoinfo-smdu/M3DC">Modelo digital 3D de São Paulo</a></li>
 
-            <h3>Informes</h3>
-            <a href="https://github.com/geoinfo-smdu/geo-sp156">Espacialização das solicitações do SP 156</a>
-            <a href="https://github.com/geoinfo-smdu/georeferenciamento-do-iptu">Georeferenciamento do IPTU</a>
-          </ul>
-          
+      
+      </div>
 
-        <h2>Legislação relacionada ao departamento</h2>
-        
+      <div class="right">
+
+        Outros portais da SMDU
 
       </div>
+      
+      <div class="main">
+      
+        teste
+      
+      </div>
+      
+      <div class="main">
+      
+        teste
+      
+      </div>
+      
+      <div class="main">
+      
+        teste
+      
+      </div>
+
     </div>
   </body>
 </html>
